@@ -49,7 +49,7 @@
 ## Usage
 
 # Username : nwexy
-# Password : nwexy
+ Password : nwexy
 
 1.  **Login:** Use the default admin credentials (if prompted/implemented) to access the dashboard.
 2.  **Dashboard:** View the list of all users. Use the search bar at the top or the dropdown to filter by status.
