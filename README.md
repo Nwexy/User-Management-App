@@ -26,7 +26,7 @@
 
 | Login Screen | Dashboard |
 | :---: | :---: |
-| ![Login Screen](<img width="798" height="537" alt="Image" src="https://github.com/user-attachments/assets/995db8c7-e5e1-49a3-984e-6aab334c026e" />) | ![Dashboard](assets/dashboard.png) |
+| ![Login Screen]<img width="798" height="537" alt="Image" src="https://github.com/user-attachments/assets/995db8c7-e5e1-49a3-984e-6aab334c026e" /> | ![Dashboard](assets/dashboard.png) |
 
 | Add User | Edit User |
 | :---: | :---: |
