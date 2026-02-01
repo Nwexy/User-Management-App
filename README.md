@@ -39,7 +39,7 @@
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/nwexy/UserManagement.git
+    git clone https://github.com/Nwexy/User-Management-App
     ```
 2.  Open **UserManagement.sln** in Visual Studio.
 3.  Restore NuGet packages (if prompted).
