@@ -47,10 +47,10 @@
 5.  Run the application (`F5`).
 
 ## Usage
-<center>
+
 # Username : nwexy
 # Password : nwexy
-</center>
+
 1.  **Login:** Use the default admin credentials (if prompted/implemented) to access the dashboard.
 2.  **Dashboard:** View the list of all users. Use the search bar at the top or the dropdown to filter by status.
 3.  **Add User:** Click the **"+ Add User"** button to open the registration form.
