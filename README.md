@@ -26,11 +26,11 @@
 
 | Login Screen | Dashboard |
 | :---: | :---: |
-| ![Login Screen]<img width="798" height="537" alt="Image" src="https://github.com/user-attachments/assets/995db8c7-e5e1-49a3-984e-6aab334c026e" /> | ![Dashboard](assets/dashboard.png) |
+| <img width="798" height="537" alt="Image" src="https://github.com/user-attachments/assets/995db8c7-e5e1-49a3-984e-6aab334c026e" /> | <img width="1150" height="650" alt="Image" src="https://github.com/user-attachments/assets/5c37b8f8-1d2f-4c5f-a69d-6478c6599017" /> |
 
 | Add User | Edit User |
 | :---: | :---: |
-| ![Add User](assets/add_user.png) | ![Edit User](assets/edit_user.png) |
+| <img width="479" height="485" alt="Image" src="https://github.com/user-attachments/assets/6ac739d9-7396-4d6e-a907-e01b29e72beb" /> | <img width="474" height="477" alt="Image" src="https://github.com/user-attachments/assets/f09848c6-4f84-485a-901a-84ca897ab2f0" /> |
 
 ### Prerequisites
 *   Visual Studio 2019 or newer
