@@ -17,6 +17,7 @@ namespace UserManagement.Forms
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelInner = new System.Windows.Forms.Panel();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -42,7 +43,7 @@ namespace UserManagement.Forms
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(0, 0);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(800, 500);
+            this.panelMain.Size = new System.Drawing.Size(800, 540);
             this.panelMain.TabIndex = 0;
             // 
             // panelInner
@@ -151,8 +152,19 @@ namespace UserManagement.Forms
             this.panelGradient.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelGradient.Location = new System.Drawing.Point(0, 0);
             this.panelGradient.Name = "panelGradient";
-            this.panelGradient.Size = new System.Drawing.Size(350, 500);
+            this.panelGradient.Size = new System.Drawing.Size(350, 540);
             this.panelGradient.TabIndex = 0;
+            // 
+            // lblByNwexy
+            // 
+            this.lblByNwexy.AutoSize = true;
+            this.lblByNwexy.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblByNwexy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.lblByNwexy.Location = new System.Drawing.Point(130, 460);
+            this.lblByNwexy.Name = "lblByNwexy";
+            this.lblByNwexy.Size = new System.Drawing.Size(103, 19);
+            this.lblByNwexy.TabIndex = 1;
+            this.lblByNwexy.Text = "© 2026 Nwexy";
             // 
             // lblWelcome
             // 
@@ -165,17 +177,6 @@ namespace UserManagement.Forms
             this.lblWelcome.Text = "Welcome to\r\nUser Management System\r\n\r\n";
             this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblByNwexy
-            // 
-            this.lblByNwexy.AutoSize = true;
-            this.lblByNwexy.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblByNwexy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
-            this.lblByNwexy.Location = new System.Drawing.Point(130, 460);
-            this.lblByNwexy.Name = "lblByNwexy";
-            this.lblByNwexy.Size = new System.Drawing.Size(90, 19);
-            this.lblByNwexy.TabIndex = 1;
-            this.lblByNwexy.Text = "© 2026 Nwexy";
-            // 
             // LoginForm
             // 
             this.AcceptButton = this.btnLogin;
@@ -185,6 +186,7 @@ namespace UserManagement.Forms
             this.ClientSize = new System.Drawing.Size(800, 540);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -195,6 +197,7 @@ namespace UserManagement.Forms
             this.panelGradient.ResumeLayout(false);
             this.panelGradient.PerformLayout();
             this.ResumeLayout(false);
+
         }
 
         #endregion

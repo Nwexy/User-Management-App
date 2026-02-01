@@ -30,9 +30,9 @@ namespace UserManagement.Data
 
         private void InitializeSampleData()
         {
-            AddUser(new User(0, "User", "Active@gmail.com", "(xxx) xxx xx xx", new DateTime(2026, 1, 1), new DateTime(2077, 1, 1), UserStatus.Active));
-            AddUser(new User(0, "User", "Inactive@gmail.com", "(xxx) xxx xx xx", new DateTime(2026, 1, 1), new DateTime(2077, 1, 1), UserStatus.Inactive));
-            AddUser(new User(0, "User", "Banned@gmail.com", "(xxx) xxx xx xx", new DateTime(2026, 1, 1), new DateTime(2077, 1, 1), UserStatus.Banned));
+            AddUser(new User(0, "User", "Active@gmail.com", "xxx xxx xx xx", new DateTime(2026, 1, 1), new DateTime(2077, 1, 1), UserStatus.Active));
+            AddUser(new User(0, "User", "Inactive@gmail.com", "xxx xxx xx xx", new DateTime(2026, 1, 1), new DateTime(2077, 1, 1), UserStatus.Inactive));
+            AddUser(new User(0, "User", "Banned@gmail.com", "xxx xxx xx xx", new DateTime(2026, 1, 1), new DateTime(2077, 1, 1), UserStatus.Banned));
         }
 
         public List<User> GetAllUsers()

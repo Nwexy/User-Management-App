@@ -158,18 +158,18 @@ namespace UserManagement.Forms
 
         private string FormatPhoneNumber(string digits)
         {
-            // Format: (xxx) xxx xx xx
+            // Format: xxx xxx xx xx
             if (string.IsNullOrEmpty(digits))
                 return "";
 
             if (digits.Length <= 3)
-                return "(" + digits;
+                return digits;
             else if (digits.Length <= 6)
-                return "(" + digits.Substring(0, 3) + ") " + digits.Substring(3);
+                return digits.Substring(0, 3) + " " + digits.Substring(3);
             else if (digits.Length <= 8)
-                return "(" + digits.Substring(0, 3) + ") " + digits.Substring(3, 3) + " " + digits.Substring(6);
+                return digits.Substring(0, 3) + " " + digits.Substring(3, 3) + " " + digits.Substring(6);
             else
-                return "(" + digits.Substring(0, 3) + ") " + digits.Substring(3, 3) + " " + digits.Substring(6, 2) + " " + digits.Substring(8);
+                return digits.Substring(0, 3) + " " + digits.Substring(3, 3) + " " + digits.Substring(6, 2) + " " + digits.Substring(8);
         }
 
         private void LoadUserData()

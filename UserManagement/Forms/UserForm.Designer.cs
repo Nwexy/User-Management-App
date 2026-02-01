@@ -17,6 +17,7 @@ namespace UserManagement.Forms
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserForm));
             this.panelMain = new System.Windows.Forms.Panel();
             this.panelContent = new System.Windows.Forms.Panel();
             this.cmbStatus = new System.Windows.Forms.ComboBox();
@@ -183,6 +184,7 @@ namespace UserManagement.Forms
             this.txtPhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPhoneNumber.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhoneNumber.Location = new System.Drawing.Point(30, 158);
+            this.txtPhoneNumber.MaxLength = 10;
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.Size = new System.Drawing.Size(420, 27);
             this.txtPhoneNumber.TabIndex = 5;
@@ -194,9 +196,9 @@ namespace UserManagement.Forms
             this.lblPhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(65)))), ((int)(((byte)(85)))));
             this.lblPhoneNumber.Location = new System.Drawing.Point(30, 136);
             this.lblPhoneNumber.Name = "lblPhoneNumber";
-            this.lblPhoneNumber.Size = new System.Drawing.Size(199, 19);
+            this.lblPhoneNumber.Size = new System.Drawing.Size(189, 19);
             this.lblPhoneNumber.TabIndex = 4;
-            this.lblPhoneNumber.Text = "Phone Number (xxx) xxx xx xx";
+            this.lblPhoneNumber.Text = "Phone Number xxx xxx xx xx";
             // 
             // txtEmail
             // 
@@ -283,6 +285,7 @@ namespace UserManagement.Forms
             this.ClientSize = new System.Drawing.Size(480, 560);
             this.Controls.Add(this.panelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "UserForm";

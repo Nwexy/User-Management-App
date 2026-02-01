@@ -58,7 +58,7 @@ namespace UserManagement.Helpers
         public static string AddNewUser => IsTurkish ? "Yeni Kullanıcı Ekle" : "Add New User";
         public static string EditUser => IsTurkish ? "Kullanıcı Düzenle" : "Edit User";
         public static string FillInfo => IsTurkish ? "Aşağıdaki bilgileri doldurun" : "Fill in the information below";
-        public static string PhoneFormat => IsTurkish ? "Telefon Numarası (xxx) xxx xx xx" : "Phone Number (xxx) xxx xx xx";
+        public static string PhoneFormat => IsTurkish ? "Telefon Numarası xxx xxx xx xx" : "Phone Number xxx xxx xx xx";
         public static string SaveUser => IsTurkish ? "Kaydet" : "Save User";
         public static string Cancel => IsTurkish ? "İptal" : "Cancel";
         
