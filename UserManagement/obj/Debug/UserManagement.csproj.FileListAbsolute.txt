@@ -1,0 +1,11 @@
+C:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.csproj.AssemblyReference.cache
+C:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.Forms.LoginForm.resources
+C:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.Forms.MainForm.resources
+C:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.csproj.GenerateResource.cache
+c:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\bin\Debug\UserManagement.exe
+c:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\bin\Debug\UserManagement.pdb
+c:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.Forms.UserForm.resources
+c:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.Properties.Resources.resources
+c:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.csproj.CoreCompileInputs.cache
+c:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.exe
+c:\Users\ezhel\OneDrive\Desktop\user management\UserManagement\obj\Debug\UserManagement.pdb
